@@ -56,7 +56,7 @@
                 <td>Article 1</td>
                 <td><input type="number" value="1" oninput="updateItemTotal()" class="quantity" min="0"></td>
                 <td><input type="number" value="10" oninput="updateItemTotal()" class="unitPrice" min="0" step="0.01"></td>
-                <td class="itemTotal" >10.00</td>
+                <td class="itemTotal" contenteditable="true"  >10.00</td>
             </tr>
             <tr>
                 <td>Article 2</td>
@@ -68,13 +68,13 @@
                 <td>Article 3</td>
                 <td><input type="number" value="3" oninput="updateItemTotal()" class="quantity" min="0"></td>
                 <td><input type="number" value="7.5" oninput="updateItemTotal()" class="unitPrice" min="0" step="0.01"></td>
-                <td class="itemTotal">22.50</td>
+                <td class="itemTotal"  >22.50</td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
                 <td colspan="3">Total Facture</td>
-                <td id="invoiceTotal">62.50</td>
+                <td id="invoiceTotal"></td>
             </tr>
         </tfoot>
     </table>
